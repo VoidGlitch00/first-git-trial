@@ -3,6 +3,11 @@ h1{
   color: chartreuse;
   text-align: center;
   border-radius: 50px;
+  
+}
+h1:hover{
+  background-color: chartreuse;
+  color: gray;
 }
 
 h3{
@@ -11,6 +16,11 @@ h3{
   text-align: center;
   margin: 20px 400px;
   border-radius: 30px;
+  animation: changecolor 2s infinite alternate;
+}
+@keyframes changecolor{
+  from { background-color: rgb(17, 139, 221);}
+  to { background-color: rgb(243, 9, 40);}
 }
 img{
   width:100%;
