@@ -1,0 +1,14 @@
+h1{
+  background-color: gray;
+  color: chartreuse;
+  text-align: center;
+  border-radius: 50px;
+}
+
+h3{
+  background-color: rgb(37, 17, 221);
+  color: azure;
+  text-align: center;
+  margin: 20px 400px;
+  border-radius: 30px;
+}
